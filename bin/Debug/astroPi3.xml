@@ -1,0 +1,61 @@
+<astroconfig>
+    <screen>
+        <brightness>
+            <param>5</param>
+        </brightness>
+        <colorbkgnd>
+            <red>4</red>
+            <green>0</green>
+            <blue>0</blue>
+        </colorbkgnd>
+        <colortext>
+            <red>5</red>
+            <green>5</green>
+            <blue>5</blue>
+        </colortext>
+        <offsetscreen>
+            <offset_x>0</offset_x>
+            <offset_y>0</offset_y>
+        </offsetscreen>
+        <screensaver>
+            <param>120</param>
+        </screensaver>
+    </screen>
+    <drivers>
+        <device>
+            <driver name="Telescope Simulator">indi_simulator_telescope</driver>
+            <version>1.0</version>
+        </device>
+        <device>
+            <driver name="Focuser Simulator">indi_simulator_focus</driver>
+            <version>1.0</version>
+        </device>
+        <device>
+            <driver name="CCD Simulator">indi_simulator_ccd</driver>
+            <version>1.0</version>
+        </device>
+        <device>
+            <driver name="Filter Simulator">indi_simulator_wheel</driver>
+            <version>1.0</version>
+        </device>
+        <device>
+            <driver name="GPS Simulator">indi_simulator_gps</driver>
+            <version>1.0</version>
+        </device>
+        <device>
+            <driver name="Dome Simulator">indi_simulator_dome</driver>
+            <version>1.0</version>
+        </device>
+    </drivers>
+    <parameters>
+        <verbose>
+            <param>vv</param>
+        </verbose>
+        <clientmem>
+            <param>64</param>
+        </clientmem>
+        <ipport>
+            <param>7624</param>
+        </ipport>
+    </parameters>
+</astroconfig>

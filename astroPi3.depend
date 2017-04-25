@@ -1,0 +1,194 @@
+# depslib dependency file v1.0
+1470344794 source:/home/philippe/Projects/astroPi3/astrocurses.cpp
+	"include/astrocurses.h"
+	<X11/Xlib.h>
+	<fcntl.h>
+	<linux/fb.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+
+1470344313 /home/philippe/Projects/astroPi3/include/astrocurses.h
+	<ncurses.h>
+	<tinyxml2.h>
+	<pthread.h>
+	<dirent.h>
+	<string>
+	<fstream>
+	<signal.h>
+	<stdlib.h>
+	<cstdlib>
+	<unistd.h>
+	<fcntl.h>
+	<sys/stat.h>
+	<net/if.h>
+	<netinet/in.h>
+	<stdio.h>
+	<arpa/inet.h>
+	<curl/curl.h>
+	"libevdev-1.0/libevdev/libevdev.h"
+	"screensaver.h"
+	"timerpthread.h"
+	"pipeopen.h"
+	"apiwebindimanager.h"
+	<wiringPi.h>
+
+1459890695 /home/philippe/Projects/astroPi3/include/screensaver.h
+	<pthread.h>
+	<time.h>
+	<cstdlib>
+	<unistd.h>
+	<stdio.h>
+
+1468858783 source:/home/philippe/Projects/astroPi3/configurationXML.cpp
+	"include/astrocurses.h"
+
+1470344598 source:/home/philippe/Projects/astroPi3/main.cpp
+	"include/astrocurses.h"
+	<iostream>
+	<cstdlib>
+
+1468858807 source:/home/philippe/Projects/astroPi3/objbutton.cpp
+	"include/astrocurses.h"
+
+1469901421 source:/home/philippe/Projects/astroPi3/objwindow.cpp
+	"include/astrocurses.h"
+
+1469984129 source:/home/philippe/Projects/astroPi3/screensaver.cpp
+	"include/screensaver.h"
+	<wiringPi.h>
+
+1470077286 source:/home/philippe/Projects/astroPi3/timerpthread.cpp
+	"include/timerpthread.h"
+	"include/astrocurses.h"
+
+1470075449 /home/philippe/Projects/astroPi3/include/timerpthread.h
+	<pthread.h>
+	<time.h>
+	<cstdlib>
+	<unistd.h>
+	<stdio.h>
+
+1469193254 source:/home/philippe/Projects/astroPi3/pipeopen.cpp
+	"include/pipeopen.h"
+
+1469031516 /home/philippe/Projects/astroPi3/include/pipeopen.h
+	<unistd.h>
+	<stdlib.h>
+	<stdio.h>
+	<signal.h>
+	<string.h>
+	<sys/wait.h>
+	<errno.h>
+	<string>
+	<sstream>
+
+1469901027 source:/home/philippe/Projects/astroPi3/apiwebindimanager.cpp
+	"include/apiwebindimanager.h"
+	<string>
+
+1469378223 /home/philippe/Projects/astroPi3/include/apiwebindimanager.h
+	<stdio.h>
+	<string.h>
+	<curl/curl.h>
+	<json/json.h>
+
+1469369750 source:/home/philippe/Projects/astroPi3/jsontools.cpp
+	"include/jsontools.h"
+
+1469369595 /home/philippe/Projects/astroPi3/include/jsontools.h
+	<json/json.h>
+
+1470950943 source:/home/philippe/Projects/astroPi3b/apiwebindimanager.cpp
+	"include/apiwebindimanager.h"
+	<string.h>
+
+1470950632 /home/philippe/Projects/astroPi3b/include/apiwebindimanager.h
+	<stdio.h>
+	<string>
+	<curl/curl.h>
+	<json/json.h>
+
+1471985615 source:/home/philippe/Projects/astroPi3b/astrocurses.cpp
+	"include/astrocurses.h"
+	<X11/Xlib.h>
+	<fcntl.h>
+	<linux/fb.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+
+1471812053 /home/philippe/Projects/astroPi3b/include/astrocurses.h
+	<iostream>
+	<ncurses.h>
+	<tinyxml2.h>
+	<pthread.h>
+	<dirent.h>
+	<string>
+	<fstream>
+	<signal.h>
+	<stdlib.h>
+	<cstdlib>
+	<unistd.h>
+	<fcntl.h>
+	<sys/stat.h>
+	<net/if.h>
+	<netinet/in.h>
+	<stdio.h>
+	<arpa/inet.h>
+	<curl/curl.h>
+	"libevdev-1.0/libevdev/libevdev.h"
+	"screensaver.h"
+	"timerpthread.h"
+	"pipeopen.h"
+	"apiwebindimanager.h"
+	<wiringPi.h>
+
+1471812407 /home/philippe/Projects/astroPi3b/include/screensaver.h
+	<pthread.h>
+	<time.h>
+	<cstdlib>
+	<unistd.h>
+	<stdio.h>
+
+1471812346 /home/philippe/Projects/astroPi3b/include/timerpthread.h
+	<pthread.h>
+	<time.h>
+	<cstdlib>
+	<unistd.h>
+	<stdio.h>
+
+1469031516 /home/philippe/Projects/astroPi3b/include/pipeopen.h
+	<unistd.h>
+	<stdlib.h>
+	<stdio.h>
+	<signal.h>
+	<string.h>
+	<sys/wait.h>
+	<errno.h>
+	<string>
+	<sstream>
+
+1471898298 source:/home/philippe/Projects/astroPi3b/configurationXML.cpp
+	"include/astrocurses.h"
+
+1470489713 source:/home/philippe/Projects/astroPi3b/main.cpp
+	"include/astrocurses.h"
+	<iostream>
+	<cstdlib>
+
+1468858807 source:/home/philippe/Projects/astroPi3b/objbutton.cpp
+	"include/astrocurses.h"
+
+1471812120 source:/home/philippe/Projects/astroPi3b/objwindow.cpp
+	"include/astrocurses.h"
+
+1469193254 source:/home/philippe/Projects/astroPi3b/pipeopen.cpp
+	"include/pipeopen.h"
+
+1471985615 source:/home/philippe/Projects/astroPi3b/screensaver.cpp
+	"include/screensaver.h"
+	<wiringPi.h>
+
+1471812295 source:/home/philippe/Projects/astroPi3b/timerpthread.cpp
+	"include/timerpthread.h"
+	"include/astrocurses.h"
+
