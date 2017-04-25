@@ -12,6 +12,7 @@ using namespace std;
 
 int main()
 {
+// Second changement de test
     // Initialisation configurationXML for getting conf and save it
     extern configurationXML* configXML;
     configXML = new configurationXML(CONFIGXMLFILE);
