@@ -21,7 +21,7 @@ int main()
     //xy_t screenResolution = initProg();
     initProg();
     // create the named pipe if ddoesn't exist
-//    initPipe();
+/*    initPipe();   */
     // Start application itself
     extern xy_t ncursesResolution;
     ncursesResolution = initCurses();
